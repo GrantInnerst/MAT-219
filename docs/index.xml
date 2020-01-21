@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STA 199: Intro to Data Science on STA 199</title>
+    <title>MAT 219 - Data Science I on MAT 219 Data Science</title>
     <link>/</link>
-    <description>Recent content in STA 199: Intro to Data Science on STA 199</description>
+    <description>Recent content in MAT 219 - Data Science I on MAT 219 Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
@@ -17,17 +17,7 @@
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description>Note: Due dates of exams and project will not move, however the timeline of topics and smaller assignments might be updated throughout the semester.  Date Lesson Slides Reading Lab AE HW EC Exam Project    Week 00           Wed, Jan 10 Welcome to Data Science           Thur, Jan 11 Lab 00: Logistics            Week 01           Mon, Jan 15 No class - Martin Luther King, Jr.</description>
-    </item>
-    
-    <item>
-      <title>Policies</title>
-      <link>/policies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/policies/</guid>
-      <description>Class: Class time is designed to be as interactive as possible. My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them. Programming is a skill that is best learned by doing, so as much as possible you will be working on a variety of tasks and activities throughout each class.
-Diversity &amp;amp; Inclusiveness: It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students&#39; learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.</description>
+      <description>Note: This page will be updated constantly throughout the semester.  Date Lesson Slides Readings DataCamp HW Project    Week 00        Mon, Jan 20 No class - Martin Luther King, Jr. Day holiday        Wed, Jan 22 Introduction to Data Science         Week 01        Mon, Jan 27 Meet The Tools        Wed, Jan 29 Visualization Part 1         Week 02        Mon, Feb 3 Fundamentals of data &amp;amp; data visualization        Wed, Feb 5 Tidy data &amp;amp; data wrangling         Week 03        Mon, Feb 10 Merge conflicts        Wed, Feb 12 Tips for effective data visualization         Week 04        Mon, Feb 17         Wed, Feb 19          Week 05        Mon, Feb 24         Wed, Feb 26          Week 06        Mon, Mar 2         Wed, Mar 4         </description>
     </item>
     
   </channel>

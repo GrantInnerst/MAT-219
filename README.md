@@ -1,12 +1,11 @@
 # website
-Course website for Sta 199 - Intro to Data Science, Spring 18 at Duke University
+Course website for MAT 219 Data Science I, Spring 20 at Shippensburg University
 
-Course website is at http://www2.stat.duke.edu/courses/Spring18/Sta199/.
+Course website is at ... .
 
 # Attribution
-
-- This website design is based on [ESPM-157 by Carl Boettinger](https://espm-157.carlboettiger.info/).
-- Background image is designed by [Muge Cetinkaya](https://www.instagram.com/dotslinesandcolors/).
+- - This website design is based on and forked from [STA-199](https://github.com/Sta199-S18/website) by [Mine Cetinkaya-Rundel](http://www2.stat.duke.edu/~mc301/).
+- The website design is based on [ESPM-157 by Carl Boettinger](https://espm-157.carlboettiger.info/).
 
 # Notes for building the website:
 

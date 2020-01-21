@@ -1,4 +1,4 @@
-<b>Note:</b> Due dates of exams and project will not move, however the timeline of topics and smaller assignments might be updated throughout the semester.
+<b>Note:</b> This page will be updated constantly throughout the semester.
 
 <br><br>
 
@@ -7,12 +7,9 @@
     <th style="width:15%;text-align:right">Date</th>
     <th style="width:45%">Lesson</th>
     <th style="width:5%;text-align:center">Slides</th>
-    <th style="width:5%;text-align:center">Reading</th>
-    <th style="width:5%;text-align:center">Lab</th>
-    <th style="width:5%;text-align:center">AE</th>
+    <th style="width:5%;text-align:center">Readings</th>
+    <th style="width:5%;text-align:center">DataCamp</th>
     <th style="width:5%;text-align:center">HW</th>
-    <th style="width:5%;text-align:center">EC</th>
-    <th style="width:5%;text-align:center">Exam</th>
     <th style="width:5%;text-align:center">Project</th>
   </tr>
 
@@ -30,23 +27,15 @@
           <i class="fa fa-laptop  fa-lg"></i></font></td>
       {{ end }}
       
-      {{ if .reading }}
+      {{ if .readings }}
       <td align="center"><a href="{{ .Site.baseurl }}/reading/{{ .reading  }}">
           <i class="fa fa-book fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
           <i class="fa fa-book fa-lg"></i></font></td>
       {{ end }}
-
-      {{ if .lab }}
-      <td align="center"><a href="{{ .Site.baseurl }}/labs/{{ .lab }}">
-          <i class="fa fa-code fa-lg"></i></a></td>
-      {{ else }}
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-code fa-lg"></i></font></td>
-      {{ end }}
       
-      {{ if .appex }}
+      {{ if .datacamp }}
       <td align="center"><a href="{{ .Site.baseurl }}/appex/{{ .appex }}">
           <i class="fa fa-users fa-lg"></i></a></td>
       {{ else }}
@@ -60,22 +49,6 @@
       {{ else }}
         <td align="center"><font color="f1f1f1">
           <i class="fa fa-pencil-square-o fa-lg"></i></font></td>
-      {{ end }}
-
-      {{ if .ec }}
-      <td align="center"><a href="{{ .Site.baseurl }}/ec/{{ .ec }}">
-          <i class="fa fa-caret-up fa-lg"></i></a></td>
-      {{ else }}
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-caret-up fa-lg"></i></font></td>
-      {{ end }}
-      
-      {{ if .exam }}
-      <td align="center"><a href="{{ .Site.baseurl }}/exam/{{ .exam }}">
-          <i class="fa fa-check-square fa-lg"></i></a></td>
-      {{ else }}
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-square fa-lg"></i></font></td>
       {{ end }}
       
       {{ if .project }}
