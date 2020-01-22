@@ -27,7 +27,7 @@
           <i class="fa fa-laptop  fa-lg"></i></font></td>
       {{ end }}
       
-      {{ if .readings }}
+      {{ if .reading }}
       <td align="center"><a href="{{ .Site.baseurl }}/reading/{{ .reading  }}">
           <i class="fa fa-book fa-lg"></i></a></td>
       {{ else }}
@@ -36,7 +36,7 @@
       {{ end }}
       
       {{ if .datacamp }}
-      <td align="center"><a href="{{ .Site.baseurl }}/appex/{{ .appex }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/datacamp/{{ .datacamp }}">
           <i class="fa fa-users fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">

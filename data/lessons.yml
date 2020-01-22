@@ -5,6 +5,8 @@ lessons:
   - date: "Wed, Jan 22"
     title: "Introduction to Data Science"
     slides: "lec-slides/intro_slides.pdf"
+    reading: "reading-01.html"
+    datacamp: "datacamp_assignment_01.html"
   - title: "Week 01"
   - date: "Mon, Jan 27"
     title: "Meet The Tools"
