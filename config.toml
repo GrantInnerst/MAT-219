@@ -71,4 +71,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   dateFormat = "January 2, 2006"
+  background = "https://grantinnerst.github.io/MAT-219/img/ds_photo.jpeg"
   
