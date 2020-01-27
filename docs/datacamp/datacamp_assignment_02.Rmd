@@ -1,0 +1,23 @@
+---
+title: "Datacamp Assignment 2"
+output: 
+  html_document: 
+    theme: yeti
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Due
+
+Monday, Feb 5th, 3:30pm
+
+
+## Assignments
+
+- Introduction to the Tidyverse (course)
+
+## Website
+
+- [DataCamp](https://www.datacamp.com/home)

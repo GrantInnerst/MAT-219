@@ -11,13 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Due
 
-Monday, Feb 12
+Wednesday, Jan 29th
 
 ## Required:
 
-- [OpenIntro Statistics](https://drive.google.com/file/d/0B-DHaDEbiOGkc1RycUtIcUtIelE/view):
-    + Section 1.1 - Casestudy:using stents to prevent strokes
-    + Section 1.2 - Data basics
-    + Section 1.3 - Overview of data collection principles
-    + Section 1.4 - Observational studies and sampling strategies
-    + Section 1.5 - Experiments
+- [R4DS](https://r4ds.had.co.nz/data-visualisation.html): Sections 3.1-3.6
+
+- [ggplot2 cheatsheet](https://rstudio.com/resources/cheatsheets/): Download the Data Visualization Cheat Sheet and skim over it.
