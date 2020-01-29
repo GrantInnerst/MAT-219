@@ -15,6 +15,7 @@ lessons:
     datacamp: "datacamp_assignment_02.html"
   - date: "Wed, Jan 29"
     title: "Visualization Part 1"
+    slides: "lec-slides/data_visualization.pdf"
   - title: "Week 02"
   - date: "Mon, Feb 3"
     title: "Fundamentals of data & data visualization"
