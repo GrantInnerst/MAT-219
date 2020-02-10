@@ -11,11 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Due
 
-Monday, Feb 21
+Wed, Feb 12
 
 ## Required:
 
-- [OpenIntro Statistics](https://drive.google.com/file/d/0B-DHaDEbiOGkc1RycUtIcUtIelE/view):
-    + 7.1 Line fitting, residuals, and correlation
-    + 7.2 Fitting a line by least squares regression
-    + 7.3 Types of outliers in linear regression
+- [R4DS](https://r4ds.had.co.nz/data-visualisation.html): Sections 5.2-5.6, 27.1-27.4
+- [R Markdown cheatsheet](https://rstudio.com/resources/cheatsheets/): Download the R Markdown Cheat Sheet and skim over it.
