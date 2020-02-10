@@ -27,7 +27,7 @@ lessons:
   - title: "Week 03"
   - date: "Mon, Feb 10"
     title: "Data Manipulation With dplyr and tidyr"
-    slides: "lec-slides/data_manipulation_tidyr"
+    slides: "lec-slides/data_manipulation_tidyr.pdf"
     reading: "reading-03.html"
     datacamp: "dc_assign_03.html"
   - date: "Wed, Feb 12"
