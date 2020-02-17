@@ -1,12 +1,6 @@
 ---
 title: "Homework 1 - You Can Be A Baseball Analytics Star Too!"
-output: 
-html_document: 
-    css: hw.css
-    theme: yeti
-    toc: true
-    toc_float: true
-    fig_caption: true
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -71,11 +65,13 @@ batting %>%
     filter(yearID == 1968 | yearID == 1969) %>%
     mutate(yearID = as_factor(yearID)) %>% 
     filter(AB > 50) %>% 
-    mutate(avg = H / AB) # %>% 
-    # ggplot(aes()) + geom_()
+    mutate(avg = H / AB)  %>% 
+    ggplot(aes(yearID, avg)) + geom_boxplot()
 ```
 
 __Problem 2__: Comment on the plot's findings.
+
+**Answer:** This is what I found!
 
 
 Another interesting time in baseball was the steroid era, which I will define as the 1990's! During this time, an increased number of major league players used performance enhancing drugs. One way that we could explore the data to see if there were any side-effects is looking at home run production. Specifically, I want to make a plot of the total home run count for every year between 1980 and 2000 with dots and a path between them. This will give us some reference for before and during the time when steroids were present. For this plot, I also want to put the actual home run totals on the plot above the points.
