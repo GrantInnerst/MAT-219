@@ -40,12 +40,13 @@ lessons:
     datacamp: "dc_assign_04.html"
     hw: "hw_03.html"
   - date: "Wed, Feb 19"
-    title: 
+    title: "No Class!"
   - title: "Week 05"
   - date: "Mon, Feb 24"
-    title: 
+    title: "Relational Data and String Manipulation"
+    slides: "lec-slides/string_manipulation.pdf"
   - date: "Wed, Feb 26"
-    title: 
+    title: "String Manipulation cont."
   - title: "Week 06"
   - date: "Mon, Mar 2"
     title: 
