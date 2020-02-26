@@ -47,6 +47,7 @@ lessons:
     slides: "lec-slides/string_manipulation.pdf"
   - date: "Wed, Feb 26"
     title: "String Manipulation cont."
+    slides: "lec-slides/regex.pdf"
   - title: "Week 06"
   - date: "Mon, Mar 2"
     title: 
