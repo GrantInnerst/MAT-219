@@ -11,10 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Due
 
-Monday, Feb 26
+Mon, Mar 16th 
 
 ## Required:
 
-- [OpenIntro Statistics](https://drive.google.com/file/d/0B-DHaDEbiOGkc1RycUtIcUtIelE/view):
-    + 8.1 Introduction to multiple regression
-    + 8.2 Model selection
+- [R4DS](https://r4ds.had.co.nz/exploratory-data-analysis.html): Chapter 7

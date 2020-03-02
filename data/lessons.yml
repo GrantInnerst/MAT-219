@@ -50,5 +50,8 @@ lessons:
     slides: "lec-slides/regex.pdf"
   - title: "Week 06"
   - date: "Mon, Mar 2"
-    title: 
+    title: "Web Scraping and API's"
+    slides: "lec-slides/web_scraping.pdf"
+    datacamp: "dc_assign_05.html"
+    reading: "reading_04.html"
   - date: "Wed, Mar 4"
