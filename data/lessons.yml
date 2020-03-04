@@ -55,3 +55,6 @@ lessons:
     datacamp: "dc_assign_05.html"
     reading: "reading-04.html"
   - date: "Wed, Mar 4"
+    title: "Web Scraping and Data Cleaning Activity"
+    hw: "hw_04.html"
+    project: "midterm.html"

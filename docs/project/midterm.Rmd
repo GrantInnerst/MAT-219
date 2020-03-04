@@ -1,0 +1,68 @@
+---
+title: "Midterm Project - College Scorecard"
+author: MAT219 Data Science I
+date: Due April 1, 2019
+output: html_document
+---
+
+## Background
+In early September 2015, the Obama Administration launched [College Scorecard](https://collegescorecard.ed.gov/). According to the [NYTimes](https://www.nytimes.com/2015/09/13/us/with-website-to-research-colleges-obama-abandons-ranking-system.html) this website “does not attempt to rate schools with any kind of grade, but provides information to prospective students and their parents about annual costs, graduation rates and salaries after graduation.”
+
+The goal of this assignment is to work with semi-structured data obtained from the web about U.S. colleges using tools and techniques you have learned in the course so far. That is, you will wrangle the data into a format that is usable, and explore it using visualizations and descriptive statistics. The main goal is to produce interesting and informative visualizations.
+
+You will address two questions for this project.
+
+1. What institutional characteristics affect student debt?
+2. The second question will be one that you decide on. 
+
+Please read the rest of this document for further details and instructions.
+
+## Data
+
+#### Dataset
+
+The specific dataset you will use for this project can be found at https://collegescorecard.ed.gov/data/. Click [here](https://ed-public-download.app.cloud.gov/downloads/Most-Recent-Cohorts-All-Data-Elements.csv) for a direct link to the dataset.
+
+#### Codebook
+
+Click [here](https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx) for a direct link to the codebook that contains descriptions of all variables in the dataset. Note that the variables are not neccesarily listed in the same order in the codebook as they appear in the dataset, so you might need to search for the variable names in the document. Also, not every variable in the codebook appears in this dataset
+
+You can find additional information on the data at https://collegescorecard.ed.gov/data/documentation/ as well.
+
+#### Loading the data
+Some tips for loading the dataset:
+
+1. Use `read_csv()` to load the dataset. 
+2. Specify NA strings with `na = c("NA", "NULL")` so that both `NA` and `NULL` text strings are viewed as NAs when loaded to R.
+
+\newpage
+
+## Teams
+
+You can work in teams for this project. Teams can range from 1 to 3 people. All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficiently contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in the assignment works.
+
+## Tasks
+
+1. Generate an additional question you find interesting that you might be able to answer using this dataset.
+2. Keeping your question and the student-debt question in mind, take a first look at the dataset. Get a good idea of what data are available. Use the codebook to better understand the variables. Do some basic counting to see things like how many schools are in the dataset. Tip: spreadsheet programs like MS Excel are also helpful for looking at a dataset of this size to help see what variables are present, but all your computations are best done in R.
+3. Now that you have looked at the data, perform an exploratory analysis. This will entail wrangling the data into a useful format, computing summary statistics, making tables, and making visualizations (also making models, but we haven't talked about that yet). 
+4. Throughout your exploratory analysis, refine your questions. Do not use all of the data in this dataset. Instead, for each question, decide on a group of schools and a smaller selection of variables to work with. For example, I might look at only the Pennsylvania State System of Higher Education (PASSHE) schools (which includes Ship) and consider what three to five variables in the dataset appear to be correleted with cost.  
+4. Continue to analyze and work with the data as needed.
+5. Produce final summary statistics, tables, and visualizatons. Remember, the main goal is to produce interesting and informative visualizations.
+6. Write a brief summary giving context to your final visualizations and why you think they are compelling. Your summary should not just be an account of everything you tried (“then we did this, then we did this, etc.”), instead it should convey what choices you made, and why, and what you found.
+
+## Tips
+
+1. Do not try to use all of the data in the dataset. Only work with the variables that help you answer your questions.
+2. I am looking for quality, not quantity. One high quality visualization that really makes a point or tells a story is better than a large number of poor quality visualizations that give little insight. Overall, I am looking for two to four visualizations. 
+3. My advice is to start by providing simple answers to your questions and get some results. Then think about how you can make your project better, more interesting, more insightful, etc. and keep revising until you are satisfied.
+3. For each section of your write-up, for example, the exploratory analysis section, combine prose and code so that a reader can understand your thinking. Do not focus on explaining your code (it filters rows, it computes the mean, etc.), well-written code should not need this kind of explanation. Instead focus on what choices you made and why you made them, what features of the data did you find interesting or suspicious and why, etc. In general, put emphasis on _why_ and not _what_.
+4. Style and formatting do count for this project. Make sure you take the time to ensure everything looks good, and your data and code are properly formatted.
+4. Make sure that your text is grammatically correct and looks nice.
+
+## Submission
+
+The project is due on April 1st at 11:59pm. You will be using Github Classroom for this assignment, and so I will view and give feedback on your repositories. 
+
+
+

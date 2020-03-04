@@ -1,0 +1,46 @@
+---
+title: "Homework 4"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this assignment, I want you to explore R and all it has to offer! By that, I mean that I want you to pick an R package and explore it. I'm going to allow you to pick any package that you want (that is, ones that you haven't yet seen in class)! The package may do something crazy or it may do something seemingly useless! It may be published on CRAN or it may just be a developmental package on GitHub! You will just have to clear it with me, before you use it. 
+
+
+## Getting started
+
+Here are the steps for getting started:
+
+- Start with the assignment link that creates a repo on GitHub with starter documents. I have sent this to you through email.
+- Clone this repo in RStudio
+- Make any changes needed as outlined by the tasks you need to complete for the assignment
+- Periodically commit changes (the more often the better, for example, once per each new task)
+    + Remember, git will yell at you when you try to commit before running the following lines in the terminal
+        - `git config --global user.name "Your Name Here"`
+        - `git config --global user.email "Your Email Here"`
+- Push all your changes back to your GitHub repo
+
+and voila, you're done! Once you push your changes back you do not need to do anything else to "submit" your work. And you can of course push multiple times throughout the assignment. At the time of the deadline I will take whatever is in your repo and consider it your final submission, and grade the state of your work at that time (which means even if you made mistakes before then, you wouldn't be penalized for them as long as the final state of your work is correct).
+
+## Assignment
+
+Install the package you pick. Depending on where the package comes from, how you install the package differs:
+
+- If the package is on CRAN (Comprehensive R Archive Network), you can install it with `install.packages`. 
+- If the package is only on Github (most likely because it is still under development), you need to use the `install_github` function. The `install_github` function is in the `devtools` package. You can install the package with `install.packages`.
+
+Then, load the package. Regardless of how you installed the package you can load it with the `library` function.
+
+Finally, do something with the package. It doesn't have to be complicated. In fact, keep it simple. The goal is to try to read and understand the package documentation to be able to carry out a simple task.
+
+## Questions
+
+1. Which package are you using? State the name of the package, whether it was on CRAN or GitHub, and include the code for loading it.
+2. What are you doing with the package? Give me a brief narrative including code and output. You should talk about the major function(s) and its overall purpose.
+3. Do something with the package that is not taken straight out of the documentation.
+
+
+Try to pick a package that is interesting to you! If you can find one you like, I can try to find one for you!!
