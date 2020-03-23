@@ -58,3 +58,7 @@ lessons:
     title: "Web Scraping and Data Cleaning Activity"
     hw: "hw_04.html"
     project: "midterm.html"
+  - title: "Week 07"
+    date: "March 23rd and March 25th"
+    slides: "lec-slides/other_data_types.pdf"
+    hw: "hw_05.html"
