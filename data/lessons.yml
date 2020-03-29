@@ -62,3 +62,6 @@ lessons:
     date: "March 23rd and March 25th"
     slides: "lec-slides/other_data_types.pdf"
     hw: "hw_05.html"
+  - title: "Week 08"
+    date: "March 30th and April 1st"
+    slides: "lec-slides/stats_primer.pdf"
