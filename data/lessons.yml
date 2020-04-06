@@ -71,3 +71,6 @@ lessons:
     slides: "lec-slides/iteration_with_purrr.pdf"
     reading: "reading-05.html"
     datacamp: "dc_assign_06.html"
+  - title: "Week 09"
+    date: "April 6th"
+    project: "final_prject.html"
