@@ -74,7 +74,7 @@ I want you to do this for the confidence interval for $p$ described above! To do
 
 2. The data for this type of problem is a series of successes and failures. We will encode 0 as a failure and 1 as a success. The way that we can simulate a series of successes and failures that have a common probability of success $p$ is with a binomial distribution. To be specific, if I wanted simulate a sample of 25 successes and failures with the probability of success being $0.25$, I would write `rbinom(n = 25, 1, p = 0.25)`. I want you to simulate 10000 samples of size `n = 25` from a binomial distribution with probability of success $p = 0.25$. You'll again want to use the `rerun()` function. The result should be a list of vectors that contain a bunch of 0's and 1's.
 
-3. Compute the confidence interval for each of the samples. This will entail mapping the interval function to each of the samples using the `map_dbl()` function. It may be useful to use purrr's anonymous function syntax.
+3. Compute the confidence interval for each of the samples. This will entail mapping the interval function to each of the samples using the `map` function. 
 
 4. This is the tricky part! We need to check whether or not the intervals actually contain the true value of the parameter. Again, we will want to use purrr's functionals to do this! There are a few different ways to complete this part! You can create a separate function that checks if the true parameter is in the interval or you can use purrr's anonymous functions with the `map_lgl()` function. For instance, if I wanted to check if `a <- 0.25` is inside the interval `x <- c(.22, .36)`, I would run the code `x[1] <= a && a <= x[2]`. 
 
