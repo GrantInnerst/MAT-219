@@ -74,3 +74,6 @@ lessons:
   - title: "Week 09"
     date: "April 6th"
     project: "final_project.html"
+  - title: "Week 10"
+    date: "April 13th and 15th"
+    slides: "lec-slides/modeling_intro.pdf"
