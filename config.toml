@@ -48,12 +48,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "RStudio"
   pre = "<i class=\"material-icons\">cloud_queue</i>"
   url = "https://rstudio.cloud"
-[[menu.main]]
-  weight = 4
-  identifier = "github"
-  name = "GitHub"
-  pre = "<i class='fab fa-github fa-lg'></i>"
-  url = "https://github.com/MAT-219-S20/"
 
 
 [[menu.footer]]
@@ -61,12 +55,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "RStudio"
   pre = "<i class=\"icon-rlogo\" style=\"font-size:150%\"></i>"
   url = "https://rstudio.cloud/"
-[[menu.footer]]
-  weight = 3
-  identifier = "GitHub"
-  name = "GitHub"
-  pre = "<i class=\"button-icon fa fa-2x fa-github\"></i>"
-  url = "https://github.com/MAT-219-S20/"
 
 
 [params]

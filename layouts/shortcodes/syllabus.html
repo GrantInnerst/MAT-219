@@ -1,4 +1,4 @@
-<b>Note:</b> This page will be updated constantly throughout the semester.
+<b>Note:</b> This page will be updated throughout the semester.
 
 <br><br>
 
@@ -8,7 +8,6 @@
     <th style="width:45%">Lesson</th>
     <th style="width:5%;text-align:center">Slides</th>
     <th style="width:5%;text-align:center">Readings</th>
-    <th style="width:5%;text-align:center">DataCamp</th>
     <th style="width:5%;text-align:center">HW</th>
     <th style="width:5%;text-align:center">Project</th>
   </tr>
@@ -33,14 +32,6 @@
       {{ else }}
         <td align="center"><font color="f1f1f1">
           <i class="fa fa-book fa-lg"></i></font></td>
-      {{ end }}
-      
-      {{ if .datacamp }}
-      <td align="center"><a href="{{ .Site.baseurl }}/datacamp/{{ .datacamp }}">
-          <i class="fa fa-users fa-lg"></i></a></td>
-      {{ else }}
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-users fa-lg"></i></font></td>
       {{ end }}
       
       {{ if .hw }}
