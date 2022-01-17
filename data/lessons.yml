@@ -6,6 +6,8 @@ lessons:
     title: "Introduction to Data Science"
     slides: "lec-slides/intro_slides.pdf"
     reading: "reading-01.html"
+    rhw: "hw_02.html"
+    dshw: "test.html"
   - title: "Week 01"
   - date: "Mon, Jan 27"
     title: "Meet The Tools"

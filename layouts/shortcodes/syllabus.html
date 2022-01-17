@@ -6,10 +6,11 @@
   <tr>
     <th style="width:15%;text-align:right">Date</th>
     <th style="width:45%">Lesson</th>
-    <th style="width:5%;text-align:center">Slides</th>
-    <th style="width:5%;text-align:center">Readings</th>
-    <th style="width:5%;text-align:center">HW</th>
-    <th style="width:5%;text-align:center">Project</th>
+    <th style="width:10%;text-align:center">Slides</th>
+    <th style="width:10%;text-align:center">Readings</th>
+    <th style="width:10%;text-align:center">R Skills HW</th>
+    <th style="width:10%;text-align:center">DS Skills HW</th>
+    <th style="width:10%;text-align:center">Project</th>
   </tr>
 
   {{ range $.Site.Data.lessons }}
@@ -34,8 +35,16 @@
           <i class="fa fa-book fa-lg"></i></font></td>
       {{ end }}
       
-      {{ if .hw }}
-      <td align="center"><a href="{{ .Site.baseurl }}/hw/{{ .hw }}">
+      {{ if .rhw }}
+      <td align="center"><a href="{{ .Site.baseurl }}/rhw/{{ .rhw }}">
+          <i class="fa fa-pencil-square-o fa-lg"></i></a></td>
+      {{ else }}
+        <td align="center"><font color="f1f1f1">
+          <i class="fa fa-pencil-square-o fa-lg"></i></font></td>
+      {{ end }}
+      
+      {{ if .dshw }}
+      <td align="center"><a href="{{ .Site.baseurl }}/dshw/{{ .dshw }}">
           <i class="fa fa-pencil-square-o fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
