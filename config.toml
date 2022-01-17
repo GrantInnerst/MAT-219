@@ -48,8 +48,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "RStudio"
   pre = "<i class=\"material-icons\">cloud_queue</i>"
   url = "https://rstudio.cloud"
-
-
 [[menu.footer]]
   weight = 2
   name = "RStudio"
@@ -60,3 +58,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
   dateFormat = "January 2, 2006"
   
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
