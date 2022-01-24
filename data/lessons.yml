@@ -11,6 +11,7 @@ lessons:
     slides: "lec-slides/intro_to_tools.pdf"
     reading: "reading-01.html"
     rhw: "r_hw_01.html"
+  - slides: "lec-slides/data_visualization.pdf"
   - date: "Wed, Jan 29"
     title: "Visualization Part 1"
     slides: "lec-slides/data_visualization.pdf"
