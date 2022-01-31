@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Due
 
-Wednesday, Jan 29th
+Monday, Feb 7th
 
 ## Required:
 
