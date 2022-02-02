@@ -22,6 +22,8 @@ lessons:
   - date: "Wed, Feb 2"
     title: "Functions and Data Manipulation"
     slides: "lec-slides/data_manipulation_basic.pdf"
+    rhw: "r_hw_02.html"
+    dshw: "homework_1.html"
   - title: "Week 03"
   - date: "Mon, Feb 10"
     title: "Data Manipulation With dplyr and tidyr"
