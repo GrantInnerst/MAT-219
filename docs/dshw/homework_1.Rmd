@@ -1,6 +1,6 @@
 ---
 title: "Homework 1 - You Can Be A Baseball Analytics Star Too!"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
