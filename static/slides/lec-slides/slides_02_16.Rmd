@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Our Slides For Today
 
+- [Reading in Data](https://grantinnerst.github.io/MAT-219/slides/lec-slides/reading_data_readr.pdf)
+
 - [R Markdown](https://grantinnerst.github.io/MAT-219/slides/lec-slides/slides-05-rmarkdown-basics.pdf)
 
 - [Relational Data](https://grantinnerst.github.io/MAT-219/slides/lec-slides/relational_data_dplyr.pdf)
