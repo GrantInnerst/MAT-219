@@ -27,7 +27,7 @@ For this assignment, you are going to work in groups of two or three to recreate
     - Choose an article that has a reasonable plot that seems possible to replicate (or at least get close!)
     - Contact me as a team and let me know which data you plan to use. I will vet if it's at the appropriate level (too easy or two hard).
     - Make the plot and comment on how you plot is similar / how it is different.
-    - Due Date: March 6th, 2020
+    - Due Date: March 18th, 2022
     
 * Grading:
     - A: Almost complete recreation of the plot! Only very minor differences

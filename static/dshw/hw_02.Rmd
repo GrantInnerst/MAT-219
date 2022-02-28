@@ -78,7 +78,7 @@ __Problem 2__: Maybe I should look at the how long the delays were for each day 
 ```
 
 ```{r}
-
+ggplot(hflights, aes()) + geom_boxplot() + ylim(30, 100)
 ```
 
 __Comment__:

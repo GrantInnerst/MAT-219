@@ -1,7 +1,7 @@
 ---
 title: "Midterm Project - College Scorecard"
-author: MAT219 Data Science I
-date: Due April 1, 2020
+author: "MAT219 Data Science I"
+date: "Due March, 23, 2022"
 output: html_document
 ---
 
@@ -62,7 +62,7 @@ You can work in teams for this project. Teams can range from 1 to 3 people. All 
 
 ## Submission
 
-The project is due on April 1st at 11:59pm. You will be using Github Classroom for this assignment, and so I will view and give feedback on your repositories. 
+The project is due on Wednesday March 23rd at 11:59pm. 
 
 
 
