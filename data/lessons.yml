@@ -71,3 +71,5 @@ lessons:
     date: "March 28th - Work day"
   - date:  "March 30th"
     slides: "lec-slides/stats_primer.pdf"
+  - date: "April 4th"
+    slides: "lec-slides/modeling_intro.pdf"
