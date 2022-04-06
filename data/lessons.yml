@@ -72,6 +72,7 @@ lessons:
   - date:  "March 30th"
     slides: "lec-slides/stats_primer.pdf"
   - date: "April 4th"
-    slides: "lec-slides/modeling_intro.pdf"
     project: "final_project.html"
     rhw: "r_hw_05.html"
+  - date: "April 6th"
+    slides: "lec-slides/modeling_intro.pdf"
