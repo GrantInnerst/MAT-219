@@ -77,5 +77,5 @@ lessons:
   - date: "April 6th"
     slides: "lec-slides/modeling_intro.pdf"
   - date: "April 11th"
-    slides: "lec-slides/interation_with_purr.pdf"
+    slides: "lec-slides/iteration_with_purr.pdf"
   - slides: "lec-slides/linear_regression.pdf"
