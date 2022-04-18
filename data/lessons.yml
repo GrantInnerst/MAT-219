@@ -79,3 +79,6 @@ lessons:
   - date: "April 11th"
     slides: "lec-slides/iteration_with_purrr.pdf"
   - slides: "lec-slides/linear_regression.pdf"
+  - date: "April 18th"
+    slides: "lec-slides/Data Privacy and Biased Algorithms.pdf"
+  - slides: "lec-slides/Data Science Ethics Guidelines.pdf"
