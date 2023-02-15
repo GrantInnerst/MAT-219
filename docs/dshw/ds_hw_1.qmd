@@ -36,7 +36,7 @@ Now that we have everything installed and loaded into R, we can take a look at a
 
 # let's look at the range of years we have! 
 batting$yearID %>% range()
-# from 1871 to 2018! That's a lot! 
+# from 1871 to 2021! That's a lot! 
 ```
 
 Notes about the code above: 
@@ -102,7 +102,7 @@ __Problem 5__: I have done the filtering for you, but I want you to create the e
 ```{r}
 batting %>% 
     filter(playerID == "bondsba01") #%>% 
-    # ggplot() +  
+    #ggplot() 
     
 
 ```
@@ -121,7 +121,7 @@ For this last plot, I want you to think of your favorite baseball player. If you
 
 To find your player, we need to look in the `Master` dataset that contains personal information about them. For instance, if I was looking for a player named Roberto Clemente, I would do the following:
 ```{r}
-filter(Master, nameLast == "Clemente")
+filter(People, nameLast == "Clemente")
 ```
  
 Next, make a dataset with just that player. Also, add two new variables. One is the batting average and two is the career years that the person played. For instance, if I were to make one for Roberto, it would look like this:
