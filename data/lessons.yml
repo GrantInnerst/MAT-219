@@ -49,9 +49,12 @@ lessons:
     rhw: "r_hw_03.html"
     dshw: "hw_02.html"
   - date: "Wed, Feb 16"
+    title: "Exploring GEC Grade Data"
+  - date: "Fri, Feb 18"
     title: "Relational Data and String Manipulation"
     slides: "lec-slides/relational_data_dplyr.pdf"
   - slides: "lec-slides/string_manipulation.pdf"
+  
   - title: "Week 06"
   - date: "Mon, Feb 21"
     title: "String Manipulation and Regex's"

@@ -104,7 +104,7 @@ batting %>%
     filter(playerID == "bondsba01") #%>% 
     #ggplot() 
     
-
+    scale_color_discrete(title = "", labels = c("Pirates", "Giants"))
 ```
 
 __Problem 6__: Comment on the plot.
