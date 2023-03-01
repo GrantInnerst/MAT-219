@@ -1,0 +1,22 @@
+---
+title: "Midterm - Open Case Studies Exploration"
+format: pdf
+---
+
+## Open Case Studies
+
+The Open Case Studies (OCS) project is an educational resource of experiential guides that demonstrate how to effectively derive knowledge from data in real-world challenges. This project is the result of work of a team of researchers from Johns Hopkins University and it's Principal Investigator Dr. Stephanie Hicks. The project contains 12 different case studies. You can check out the projects and case studies here: https://www.opencasestudies.org/. 
+
+
+## Midterm Tasks 
+
+For the midterm, you are going to you are going to choose a case study that you want to work with (from the approved list that is listed) below and complete a number of tasks. Specifically, 
+
+
+1. You need to choose a case study to work with. Here are the list of approved case studies:
+
+- School Shootings in the United States
+- Opioids in United States
+- Mental Health of American Youth
+- Exploring CO2 emissions across time
+- Exploring global patterns of dietary behaviors associated with health risk
