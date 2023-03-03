@@ -1,6 +1,6 @@
 ---
 title: "Midterm - Open Case Studies Exploration"
-format: pdf
+format: html
 ---
 
 ## Open Case Studies
@@ -20,3 +20,9 @@ For the midterm, you are going to you are going to choose a case study that you 
 - Mental Health of American Youth
 - Exploring CO2 emissions across time
 - Exploring global patterns of dietary behaviors associated with health risk
+
+2. Complete the case study. The studies are really well documented and includes all of the requisite code you will need. You will already know some of the skills from class, but each study contains some new skills. Write down your work in a Quarto document. Make sure to answer all of the questions they ask throughout. The answers are included, but try to answer the questions before you look at the key. 
+
+3. Answer the suggested homework question(s) in the same Quarto document you did #2 in. 
+
+4. Come up with your own question and answer it. Your question should be a "big picture" question, not one that can be answered with a single plot or summary table. 
