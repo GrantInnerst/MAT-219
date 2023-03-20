@@ -56,7 +56,7 @@ __Question Starts Here:__
 
 I want you to create a simulation to try and answer this question! David Robinson has done a screen-cast on it, but don't copy his code! I am looking for you to use simple controls and looping structures to accomplish this task. There are only a couple of components to this problem:
 
-* Rolling the dice: This is accomplished using the `sample()` function. The `sample()` function takes in the vector you are sampling from, the number of samples you want from the vector, and whether or not you want to sample with replacement. For example, `rsample(1:6, 3, replace = TRUE)` simulates three rolls of 1 six-sided die. Every time you roll the die, you will feed the previous roll into `sample()` again.
+* Rolling the dice: This is accomplished using the `sample()` function. The `sample()` function takes in the vector you are sampling from, the number of samples you want from the vector, and whether or not you want to sample with replacement. For example, `sample(1:6, 3, replace = TRUE)` simulates three rolls of 1 six-sided die. Every time you roll the die, you will feed the previous roll into `sample()` again.
 * Determining when to stop: No matter what type of loop you use, you need some stopping criteria. The output of sample is a vector, and so you need to know when the vector becomes all one number. I suggest a combination of the `length()` and `unique()` functions. 
 * Keeping count of iterations: One way or another, you have to keep track of how many iteration you went through until you have all of the same faces. This may be easily built into your simulation or you may have to add a variable that keeps count. 
 
