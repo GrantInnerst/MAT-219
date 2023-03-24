@@ -84,7 +84,7 @@ lessons:
   - title: "Week 10"
   - date: "March 20th"
     title: "EDA Process and Discussion"
-    slides: "lec_slides/EDA_process_discussion.pdf"
+    slides: "lec-slides/EDA_process_discussion.pdf"
   - date: "March 24th"
     title: "Stats Discussion"
     slides: "lec-slides/stats_primer.pdf"
