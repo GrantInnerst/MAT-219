@@ -16,7 +16,7 @@ You will undertake a data science project on a topic of your choice. The project
 
 ## Project Due Dates
 
-- Proposal due: Friday April 22nd, 11:59pm (We are going to have one class meeting time where your group will meet with me about your project during that week)
+- Proposal due: Friday April 21nd, 11:59pm (We are going to have one class meeting time where your group will meet with me about your project during that week)
 - Final Submission: Our final exam time
 
 ## Components
