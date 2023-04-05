@@ -24,7 +24,7 @@ For this question, we are going to create a 95% bootstrap confidence interval fo
 
 The following steps are what you need to complete in order to create the proper interval. A general hint is that you should try to think about how to do this once, and then generalize.
 
-1. Create 10000 samples, of size n, from the original population `samp` using `map(1:10000, ~f)` and `sample()`. Remember to sample with replacement, `replace = TRUE` inside `sample()`, and make sure each sample is of the same size as the population, `n = 25`.
+1. Create 10000 samples, of size n, from the original population `samp` using `map(1:10000, ~ f)` and `sample()`. Remember to sample with replacement, `replace = TRUE` inside `sample()`, and make sure each sample is of the same size as the population, `n = 25`.
 2. Find the standard deviation of each dataset using the `map_dbl()` function and the `sd()` function inside `map_dbl()`.
 3. The bounds of a 95% bootstrap confidence interval are found by taking the 2.5th percentile and the 97.5th percentile of the standard deviations found in step 2. To find percentiles, you use the `quantile()` function.
 4. To finish the question off, plot a histogram of the standard deviations to see the bootstrap distribution.
