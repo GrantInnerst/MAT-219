@@ -79,6 +79,6 @@ __Extra Credit:__ We did the simulation for fixed $n$ and fixed $p$, but what ha
 
 
 ```{r extra credit}
-
+mesh <- seq(0.01, 0.99, by = 0.02)
 ```
 

@@ -107,5 +107,8 @@ lessons:
     slides: "lec-slides/linear_regression.pdf"
   - title: "Week 13"
   - date: "April 10th"
+  - date: "April 12th"
+    slides: "lec-slides/linear_regression.pdf"
+  - date: "April 14th"
     slides: "lec-slides/Data Privacy and Biased Algorithms.pdf"
   - slides: "lec-slides/Data Science Ethics Guidelines.pdf"
