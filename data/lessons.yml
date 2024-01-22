@@ -7,7 +7,7 @@ lessons:
     title: "Meet The Tools and Visualization Intro"
     slides: "lec-slides/intro_to_tools.pdf"
     rhw: "r_hw_01.html"
-    - date: "Fri, Jan 26"
+  - date: "Fri, Jan 26"
     title: "Visualization Intro cont."
     slides: "lec-slides/data_visualization.pdf"
     reading: "reading-01.html"
