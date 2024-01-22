@@ -45,14 +45,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
   weight = 3
   identifier = "rstudio"
-  name = "RStudio"
+  name = "Posit"
   pre = "<i class=\"material-icons\">cloud_queue</i>"
-  url = "https://rstudio.cloud"
+  url = "https://posit.cloud"
 [[menu.footer]]
   weight = 2
-  name = "RStudio"
+  name = "Posit"
   pre = "<i class=\"icon-rlogo\" style=\"font-size:150%\"></i>"
-  url = "https://rstudio.cloud/"
+  url = "https://posit.cloud/"
 
 
 [params]

@@ -118,7 +118,7 @@ __Problem 7__: Maybe that number above is misleading! Airlines will try to stay 
 __Comments__:
 
 
-__Problem 8__: Now that I know what day to travel and what airline to travel, I need to find out which airport to fly out of!! There are two airports in this data. IAH and HOU. They are in the `origin` variable. Along the same lines as the other problems, find the average departure delay time for each airport. Also, this time make histograms for departure delays greater than 30 minutes and use `facet_wrap()` to plot them beside each other. Also, try adjusting the number of bins to see if the relationship becomes any clearer. Lastly, I want you to copy and paste the exact same code that you used to make the histograms in the last chunk and add a y aesthetic of ``..density..`. Comment on the differences between the plots and what you think the `..density..` did to the plots.
+__Problem 8__: Now that I know what day to travel and what airline to travel, I need to find out which airport to fly out of!! There are two airports in this data. IAH and HOU. They are in the `origin` variable. Along the same lines as the other problems, find the average departure delay time for each airport. Also, this time make histograms for departure delays greater than 30 minutes and use `facet_wrap()` to plot them beside each other. Also, try adjusting the number of bins to see if the relationship becomes any clearer. Lastly, I want you to copy and paste the exact same code that you used to make the histograms in the last chunk and add a y aesthetic of `after_stat(density)`. Comment on the differences between the plots and what you think the `after_stat(density)` did to the plots.
 
 ```{r}
 

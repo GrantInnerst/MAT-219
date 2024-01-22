@@ -1,8 +1,7 @@
 ---
 title: "Final Project"
 author: MAT219 Data Science I
-
-output: html_document
+output: pdf_document
 ---
 
 ## Overview
@@ -16,14 +15,14 @@ You will undertake a data science project on a topic of your choice. The project
 
 ## Project Due Dates
 
-- Proposal due: Friday April 21nd, 11:59pm (We are going to have one class meeting time where your group will meet with me about your project during that week)
-- Final Submission: Our final exam time
+- Proposal due: End Of Week 4, July 23rd, 11:59pm 
+- Final Submission: Final Day Of Class, August 4th, at 1:59pm (Paper and Video Presentation)
 
 ## Components
 
 ### Proposal
 
-Your proposal is to be submitted in print. Spend time deciding on a topic that interests you. Think about compelling questions that can be answered with data. Here is one way to approach this project: The website [FiveThirtyEight](https://fivethirtyeight.com/) used to have an ["Ask Mona" column](https://fivethirtyeight.com/tag/ask-mona/) run by [Mona Chalabi](https://en.wikipedia.org/wiki/Mona_Chalabi) where people would send her questions, and she would use data to provide an answer. Imagine sending yourself such a question, and then doing some research to find where relevant data can be obtained. Once you have an idea of the data out there, try to picture your end product. What type of visualizations, tables, and/or statistical methods would be helpful. Don't think about coding, a particular dataset, or what you know how to do at first. This will increase the likelihood that you will come up with something ambitious and original, and you will be more motivated to learn new things as you work to accomplish your goal. The topic is completely open to your choice, but keep in mind the rules listed above. 
+Your proposal is to be submitted via D2L. Spend time deciding on a topic that interests you. Think about compelling questions that can be answered with data. Here is one way to approach this project: The website [FiveThirtyEight](https://fivethirtyeight.com/) used to have an ["Ask Mona" column](https://fivethirtyeight.com/tag/ask-mona/) run by [Mona Chalabi](https://en.wikipedia.org/wiki/Mona_Chalabi) where people would send her questions, and she would use data to provide an answer. Imagine sending yourself such a question, and then doing some research to find where relevant data can be obtained. Once you have an idea of the data out there, try to picture your end product. What type of visualizations, tables, and/or statistical methods would be helpful. Don't think about coding, a particular dataset, or what you know how to do at first. This will increase the likelihood that you will come up with something ambitious and original, and you will be more motivated to learn new things as you work to accomplish your goal. The topic is completely open to your choice, but keep in mind the rules listed above. 
 
 Your proposal should contain the following content:
 
@@ -35,12 +34,11 @@ Your proposal should contain the following content:
 
 ### Write-Up
 
-Your write-up should be a reproducible R Markdown PDF document that when printed is of length no more than 30 pages (including code). In your write-up, you should layout your data analysis work-flow similar to how we did in the midterm project. In particular it should include the following sections first:
+Your write-up should be a reproducible Quarto PDF document that when printed is of length no more than 30 pages (including code). In your write-up, you should layout your data analysis work-flow similar to how we did in the midterm project. In particular it should include the following sections first:
 
 1. Introduction
 1. Load Packages
 2. Load the data
-2. Define functions
 3. Tidy the data
 4. Analyze the tidy data
 

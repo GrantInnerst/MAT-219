@@ -6,19 +6,13 @@
     <description>Recent content in MAT 219 - Data Science I on MAT 219 Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>/syllabus/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>/syllabus/</guid>
-      <description>Note: This page will be updated throughout the semester.  Date Lesson Slides Readings R-HW DS-HW Project    Week 01        Mon, Jan 16 No class - Martin Luther King, Jr. Day holiday        Wed, Jan 18 Introduction to Data Science        Fri, Jan 20 Meet The Tools and Visualization Intro         Week 02        Mon, Jan 23 Visualization Intro cont.</description>
+      <description>Note: This page will be updated throughout the semester. Date Lesson Slides Readings R-HW DS-HW Project </description>
     </item>
-    
   </channel>
 </rss>

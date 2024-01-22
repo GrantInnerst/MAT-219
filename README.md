@@ -1,5 +1,5 @@
 # website
-Course website for MAT 219 Data Science I, Spring 2022 at Shippensburg University
+Course website for MAT 219 Data Science I, Spring 2024 at Shippensburg University
 
 Course website is at https://grantinnerst.github.io/MAT-219/ .
 
