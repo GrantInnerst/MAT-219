@@ -16,14 +16,13 @@ markup: "mmark"
 ### Professor and Office Hours 
 
 
-Instructor:<span></span>| [Grant Innerst](https://grantinnerst.github.io/) <span></span> <a href="mailto:glinnerst@ship.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/GrantInnerst" title="GitHub"><i class="fa fa-github"></i></a> &nbsp; <a href="https://twitter.com/GrantInnerst" title="Twitter"><i class="fa fa-twitter"></i></a> <span></span> MWF 10-11am, T 1-3pm <span></span> MAT 275
+Instructor:<span></span> [Grant Innerst](https://grantinnerst.github.io/) <span></span> <a href="mailto:glinnerst@ship.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/GrantInnerst" title="GitHub"><i class="fa fa-github"></i></a> &nbsp; <a href="https://twitter.com/GrantInnerst" title="Twitter"><i class="fa fa-twitter"></i></a> <span></span> MWF 10-11am, T 1-3pm, <span></span> MAT 275
 
 ### Texts
 
 All texts are freely available online and will be added here when needed:
 
-{.table .table-condensed .table-striped .text-left}
- <span></span>     | <span></span> | <span></span> 
------------|---------------------------------|----------------------------------
-[R for Data Science](http://r4ds.had.co.nz/) | Grolemund, Wickham | O'Reilly, 1st edition, 2016
+
+
+[R for Data Science](http://r4ds.had.co.nz/) <span></span> Grolemund, Wickham <span></span> O'Reilly, 1st edition, 2016
 
