@@ -27,7 +27,7 @@ lessons:
   - date: "Mon, Feb 5"
     title: "Data Manipulation Basics"
     slides: "lec-slides/data_manipulation_basic.pdf"
-    tt: ""
+    tt: "tidy_tuesday_1.html"
     reading: "reading-02.html"
   - date: "Wed, Feb 1"
     title: "Functions and Data Manipulation"
