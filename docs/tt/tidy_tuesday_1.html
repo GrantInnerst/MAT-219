@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="PUT YOUR NAME HERE">
 
-<title>DS Homework #3: 538 Assignment</title>
+<title>Tidy Tuesday #1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,73 +21,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="ds_hw_03_files/libs/clipboard/clipboard.min.js"></script>
-<script src="ds_hw_03_files/libs/quarto-html/quarto.js"></script>
-<script src="ds_hw_03_files/libs/quarto-html/popper.min.js"></script>
-<script src="ds_hw_03_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="ds_hw_03_files/libs/quarto-html/anchor.min.js"></script>
-<link href="ds_hw_03_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="ds_hw_03_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="ds_hw_03_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="ds_hw_03_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="ds_hw_03_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="tidy_tuesday_1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="tidy_tuesday_1_files/libs/quarto-html/quarto.js"></script>
+<script src="tidy_tuesday_1_files/libs/quarto-html/popper.min.js"></script>
+<script src="tidy_tuesday_1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="tidy_tuesday_1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="tidy_tuesday_1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="tidy_tuesday_1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="tidy_tuesday_1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="tidy_tuesday_1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="tidy_tuesday_1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ds_hw_03.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DS Homework #3: 538 Assignment</h1>
+<h1 class="title">Tidy Tuesday #1</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>PUT YOUR NAME HERE </p>
+          </div>
+  </div>
     
   
     
@@ -95,46 +67,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">538</h3>
-<p>For those of you who don’t know, <a href="https://fivethirtyeight.com/">538</a> is a website that focuses on opinion poll analysis, politics, economics, and sports blogging. It was created and is currently run by Nate Silver, who has become famous for his writing and work on the site. He has a famous book called “The Signal and the Noise”, among other works.</p>
-</section>
-<section id="fivethirtyeight-package" class="level3">
-<h3 class="anchored" data-anchor-id="fivethirtyeight-package"><code>fivethirtyeight</code> package</h3>
-<p>A nice feature of many articles articles on the site is that the data they use is freely available for people to use and reproduce their analysis. Some professors and students at Smith College have compiled this data into an R package called <code>fivethirtyeight</code>. Even nicer, they link to the article page as well!</p>
-</section>
-<section id="the-assignment" class="level3">
-<h3 class="anchored" data-anchor-id="the-assignment">The Assignment</h3>
-<p>For this assignment, you are going to work (with another classmate) to recreate a production-level plot an article of your choice!</p>
-<ul>
-<li>Assignment Structure:
-<ul>
-<li>Choose one other classmates to work with if you wish</li>
-<li>Browse the offerings from the <code>fivethirtyeight</code> package. You can run <code>data(package = "fivethirtyeight")</code> to get all of the datasets.</li>
-<li>Choose an article that has a reasonable plot that seems possible to replicate (or at least get close!)</li>
-<li>Contact me as a team and let me know which data you plan to use. I will vet if it’s at the appropriate level (too easy or two hard).</li>
-<li>Make the plot and comment on how you plot is similar / how it is different.</li>
-</ul></li>
-<li>Grading:
-<ul>
-<li>A: Almost complete recreation of the plot! Only very minor differences</li>
-<li>B: Missing some of the finer details but has a strong resemblance to the original plot</li>
-<li>C: Recreates the main substance of the plot but is missing all finer details</li>
-<li>D and below: Fails to recreate any plot</li>
-</ul></li>
-</ul>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("fivethirtyeight")</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tidyverse"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"fivethirtyeight"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code goes here!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><strong>Comment:</strong></p>
+<section id="assignment-description" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-description">Assignment Description</h2>
+<p>This is your first Tidy Tuesday data analysis assignment! As I mentioned before, Tidy Tuesday is a collective that releases a dataset each week for people to use to strength their data science skills. That’s what we are going to do here!</p>
+<p>Right now, the main thing you know how to do is make graphs, so that’s what we are going to do here! For this assignment, I want you to explore the dataset released on 2/6/2024 by making at least three different plots. At least one of the plots need to contain two or more different variables. In addition to the plot, you need to write a discussion about why you chose the specific plot type and variables as well as what that plot tells you about the data.</p>
 </section>
 
 </main>

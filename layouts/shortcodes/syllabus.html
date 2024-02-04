@@ -5,11 +5,12 @@
 <table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
   <tr>
     <th style="width:15%;text-align:right">Date</th>
-    <th style="width:45%">Lesson</th>
+    <th style="width:40%">Lesson</th>
     <th style="width:10%;text-align:center">Slides</th>
     <th style="width:10%;text-align:center">Readings</th>
     <th style="width:10%;text-align:center">R-HW</th>
     <th style="width:10%;text-align:center">DS-HW</th>
+    <th style="width:10%;text-align:center">Tidy Tuesday</th>
     <th style="width:10%;text-align:center">Project</th>
   </tr>
 
@@ -45,6 +46,14 @@
       
       {{ if .dshw }}
       <td align="center"><a href="{{ .Site.baseurl }}/dshw/{{ .dshw }}">
+          <i class="fa fa-pencil-square-o fa-lg"></i></a></td>
+      {{ else }}
+        <td align="center"><font color="f1f1f1">
+          <i class="fa fa-pencil-square-o fa-lg"></i></font></td>
+      {{ end }}
+      
+       {{ if .tt }}
+      <td align="center"><a href="{{ .Site.baseurl }}/tt/{{ .tt }}">
           <i class="fa fa-pencil-square-o fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
