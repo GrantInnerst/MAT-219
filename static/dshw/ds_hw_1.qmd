@@ -32,11 +32,11 @@ Now that we have everything installed and loaded into R, we can take a look at a
 
 ```{r}
 # original data is a data frame but tibbles are nicer to work with
-(batting <- as_tibble(Batting))
+batting <- as_tibble(Batting)
 
 # let's look at the range of years we have! 
 batting$yearID %>% range()
-# from 1871 to 2021! That's a lot! 
+# from 1871 to 2022! That's a lot! 
 ```
 
 Notes about the code above: 
@@ -45,7 +45,7 @@ Notes about the code above:
 - the `$` operator will access the specific variable in the tibble
 - The `%>%` is called the pipe operator and takes the result of the left side and puts it in the first argument of the function on the right.
 
-That's a lot of data (147 years worth) in there! Let's hone in something interesting in baseball's past that would be cool to look at! In 1969, the MLB lowered the pitching mound by 10 inches and shrunk the strike zone to what it is today. This really benefited the batters and took a huge advantage away from pitchers. Thus, let's look at batting averages for those two seasons and see if there is a difference graphically. Specifically, let's make a side-by-side boxplot to carry out our comparison. The code below carries out this task (almost!). 
+That's a lot of data (147 years worth) in there! Let's hone in on something interesting in baseball's past that would be cool to look at! In 1969, the MLB lowered the pitching mound by 10 inches and shrunk the strike zone to what it is today. This really benefited the batters and took a huge advantage away from pitchers. Thus, let's look at batting averages for those two seasons and see if there is a difference graphically. Specifically, let's make a side-by-side boxplot to carry out our comparison. The code below carries out this task (almost!). 
 
 Description and comments of the code below:
 
@@ -104,7 +104,7 @@ batting %>%
     filter(playerID == "bondsba01") #%>% 
     #ggplot() 
     
-    scale_color_discrete(title = "", labels = c("Pirates", "Giants"))
+    
 ```
 
 __Problem 6__: Comment on the plot.
@@ -119,7 +119,7 @@ For this last plot, I want you to think of your favorite baseball player. If you
 - Overlay your favorite players in red. 
 
 
-To find your player, we need to look in the `Master` dataset that contains personal information about them. For instance, if I was looking for a player named Roberto Clemente, I would do the following:
+To find your player, we need to look in the `People` dataset that contains personal information about them. For instance, if I was looking for a player named Roberto Clemente, I would do the following:
 ```{r}
 filter(People, nameLast == "Clemente")
 ```
@@ -129,6 +129,9 @@ Next, make a dataset with just that player. Also, add two new variables. One is 
 clem_bat <- batting %>% 
     filter(playerID == "clemero01") %>% 
     mutate(avg = H / AB, career = yearID - min(yearID))
+
+# put yours below
+
 ```
 
 Now we are going to do the same thing for everyone else, and add in the more than 50 AB condition!
