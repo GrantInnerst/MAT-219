@@ -65,7 +65,7 @@ __Problem 1__: Do flights departing get delayed more often on certain days? I wa
 
 ```
 
-__Comment__: This is easy!
+__Comment__: 
 
 __Problem 2__: Maybe I should look at the how long the delays were for each day of the week! First, find the average departure delay time for each day of the week! Then, make a side-by-side boxplot of departure delays for each day that were more than 30 minutes long (there is too much overplotting if we look at all of the data). Comment on your findings. Hint: For the plot, you need to do the following in a similar order: change the `day_of_week` variable into a factor (data type for categorical variables) using `as_factor()` and `mutate()`, filter out the `NA`'s with the `drop_na()` function, then filter so that only use delays of more than 30 minutes. You will need to use the `drop_na()` for almost every problem here.
 
@@ -74,7 +74,7 @@ __Problem 2__: Maybe I should look at the how long the delays were for each day 
 ```
 
 ```{r}
-ggplot(hflights, aes()) + geom_boxplot() + ylim(30, 100)
+
 ```
 
 __Comment__:
