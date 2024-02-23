@@ -1,0 +1,19 @@
+---
+title: "Reading 03"
+output: 
+  html_document: 
+    theme: yeti
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Due
+
+Wed, Feb 12
+
+## Required:
+
+- [R4DS](https://r4ds.had.co.nz/data-visualisation.html): Sections 5.2-5.6, 27.1-27.4
+- [R Markdown cheatsheet](https://rstudio.com/resources/cheatsheets/): Download the R Markdown Cheat Sheet and skim over it.

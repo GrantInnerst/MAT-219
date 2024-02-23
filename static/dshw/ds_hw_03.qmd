@@ -1,0 +1,49 @@
+---
+title: "DS Homework #3: 538 Assignment"
+format: pdf
+---
+
+### 538
+
+For those of you who don't know, [538](https://fivethirtyeight.com/) is a website that focuses on opinion poll analysis, politics, economics, and sports blogging. It was created and is currently run by Nate Silver, who has become famous for his writing and work on the site. He has a famous book called "The Signal and the Noise", among other works. 
+
+### `fivethirtyeight` package
+
+A nice feature of many articles articles on the site is that the data they use is freely available for people to use and reproduce their analysis. Some professors and students at Smith College have compiled this data into an R package called `fivethirtyeight`. Even nicer, they link to the article page as well!
+
+
+### The Assignment
+
+For this assignment, you are going to work (with another classmate) to recreate a production-level plot an article of your choice!
+
+
+* Assignment Structure:
+    - Choose one other classmates to work with if you wish
+    - Browse the offerings from the `fivethirtyeight` package. You can run `data(package = "fivethirtyeight")` to get all of the datasets.
+    - Choose an article that has a reasonable plot that seems possible to replicate (or at least get close!)
+    - Contact me as a team and let me know which data you plan to use. I will vet if it's at the appropriate level (too easy or two hard).
+    - Make the plot and comment on how you plot is similar / how it is different.
+    
+* Grading:
+    - A: Almost complete recreation of the plot! Only very minor differences
+    - B: Missing some of the finer details but has a strong resemblance to the original plot
+    - C: Recreates the main substance of the plot but is missing all finer details
+    - D and below: Fails to recreate any plot 
+    
+    
+    
+## Code
+
+```{r lib}
+#| message: false 
+# install.packages("fivethirtyeight")
+library("tidyverse")
+library("fivethirtyeight")
+```
+
+
+```{r}
+# code goes here!
+```
+
+__Comment:__

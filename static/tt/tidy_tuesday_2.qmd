@@ -1,0 +1,49 @@
+---
+title: "Tidy Tuesday Assignment #2"
+format: pdf
+---
+
+## Assignment
+
+For this weeks assignment, we are going to explore some data about Groundhog Day predictions! If you were at my math department seminar talk last Thursday, you know about this data! If you are unfamiliar with Groundhog Day and the weather predictions of Punxsutawney Phil, I suggest you look him up! There are two data frames that contain information about the predictions and the "entities" that do predictions. One contains the predictions made each year, called `predictions`, and the other contains information about the various "entities" doing the predictions, called `groundhogs`. Use those two data frames when answering the questions below!
+
+```{r load packages, message=FALSE}
+library("tidyverse");theme_set(theme_bw())
+```
+
+```{r load data, message=FALSE}
+groundhogs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-01-30/groundhogs.csv')
+predictions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-01-30/predictions.csv')
+```
+
+
+## Questions
+
+
+1. Not all of the things making predictions on Groundhog day are groundhogs! I want you to count the type variable and arrange the results to see the most common types. 
+
+```{r}
+
+```
+
+
+2. Now let's look at how much agreement there was between the predictors for some recent years. Let's do that by doing the following: 
+
+- filter `predictions` so that we only have years greater than 2020
+- there are some NA's in the dataset that will cause problems. To get rid of them, we are going to use the `drop_na()` function. Specifically you should use the code `drop_na(shadow)` in your "pipeline"
+- We want to do conditional computation on the shadow column based on the year variable, so you want to group by year with `group_by()`.
+- There are a number of ways that we can measure "agreement". The way we are going to choose is by finding the proportion of TRUE's for each year. That might seem odd, but if the proportion of TRUE's is closer to 0 or 1, then there is a lot of agreement (all TRUE or all FALSE), but if the numbers are close to .5, then there is not a lot of agreement. To find the proportion of TRUE's in the shadow variable, we are going to use a trick that takes advantage of how R does computation with logical values. The trick is that R converts TRUE's to 1 and FALSE's to 0 when you do addition, subtraction, etc. Thus, to find the proportion of TRUE's, take the mean of the shadow variable.
+- Comment on the level of agreement and whether or not that makes sense to you. 
+
+```{r}
+
+```
+
+
+3. Choose something to explore. It could be a map, or it could be something else. It can be whatever you want! Just do something. 
+
+```{r}
+
+```
+
+

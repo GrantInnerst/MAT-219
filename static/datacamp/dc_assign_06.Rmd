@@ -1,0 +1,22 @@
+---
+title: "DataCamp Assignment 6"
+author: "Grant Innerst"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Due
+
+Sunday, Apr 12th, 11:59pm
+
+
+## Assignments
+
+- Simplifying Iterations and Lists with purrr (chapter)
+
+## Website
+
+- [DataCamp](https://www.datacamp.com/home)

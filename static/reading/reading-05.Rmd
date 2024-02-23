@@ -1,0 +1,20 @@
+---
+title: "Reading 05"
+output: 
+  html_document: 
+    theme: yeti
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Due
+
+Sunday April 12th
+
+## Required:
+
+- [R4DS](https://r4ds.had.co.nz/iteration.html): Chapter 21
+
+

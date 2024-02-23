@@ -1,0 +1,98 @@
+---
+title: 'Homework 5: The Titanic and NYC Squirrels'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this assignment, I am going to test your ability to work with strings and spatial data in R. To do so, you will explore two different datasets: one contains passenger data from the Titanic, and the other contains data on squirrels in Central Park. 
+
+
+## Getting started
+
+Here are the steps for getting started:
+
+- Start with the assignment link that creates a repo on GitHub with starter documents. I have sent this to you through email.
+- Clone this repo in RStudio
+- Make any changes needed as outlined by the tasks you need to complete for the assignment
+- Periodically commit changes (the more often the better, for example, once per each new task)
+    + Remember, git will yell at you when you try to commit before running the following lines in the terminal
+        - `git config --global user.name "Your Name Here"`
+        - `git config --global user.email "Your Email Here"`
+- Push all your changes back to your GitHub repo
+
+and voila, you're done! Once you push your changes back you do not need to do anything else to "submit" your work. And you can of course push multiple times throughout the assignment. At the time of the deadline I will take whatever is in your repo and consider it your final submission, and grade the state of your work at that time (which means even if you made mistakes before then, you wouldn't be penalized for them as long as the final state of your work is correct).
+
+
+## The Titanic Data
+
+The first dataset in this assignment is on passenger survival data from the Titanic. The original data come from Kaggle, but is contained in the `titanic` R package. The package contains 4 different datasets, but we are only interested in the two called `titanic_test` and `titanic_train`.  I have combined these two into a data frame / tibble called `titanic`, which you will use for the assignment. The data measures 12 different variables on 1,309 passengers. Here are the 12 variables
+
+Variable | Description
+---------|------------
+passengerid | passenger ID number
+survived | passenger survival indicator (0 = died, 1 = survived)
+pclass | passenger class (1 = 1st, 2 = 2nd, 3 = 3rd)
+name | passenger name
+sex | passenger sex
+age | passenger age
+sibsp | number of siblings/spouses aboard
+parch | number of parents/children aboard
+ticket | ticket number
+fare | how much the ticket cost
+cabin | cabin number
+embarked | port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+
+In the code chunks below, I have set everything up for you to begin the assignment. Do not touch these code chunks!
+
+```{r packages, warning=FALSE, message=FALSE}
+library("tidyverse");theme_set(theme_bw())
+library("titanic")
+```
+
+```{r data}
+titanic <- bind_rows(titanic_train, titanic_test) %>%
+    as_tibble() %>%
+    purrr::set_names(~ str_to_lower(.x))
+```
+
+## Assignment
+
+Answer the questions below using `stringr` functions and regex's. Remember to use good coding style (preferably with pipes `%>%` and such things). Also, I realize that the answers to these questions are easily found online. I ask that try the questions before looking online for assistance. You will never learn by just copying other peoples work!
+
+Questions to answer:
+
+1. Does a person's title (Mr, Mrs, Dr, Rev, etc.) affect how likely they were to survive? I want you to extract the person's title and give me a plot of the distribution of titles. Then, for the six most popular title, I want you to give me the proportion of those who survived, and thus address the question.
+2. What family names were most popular on the Titanic? For this problem, simply extract the family names and plot them. 
+3. Explore what variables seem to affect passenger survival. For this open-ended question, I want you to use your exploratory data analysis skills to find out what variables seem to have the largest affect on passenger survival. For those who are ambitious, you can use a model to answer this question (logistic regression would be the most popular statistical model for this type of problem). If not, use graphical and numerical summaries to explore the relationship between selected variables and the response (passenger survival). 
+
+
+## Place Answers Below
+
+
+
+
+
+
+The second part of the assignment has to do with squirrels in New York City's Central Park. This data is officially called the Squirrel Census and can be taken from the NYC Open Data Project using an API endpoint. However, we are going to use a modified dataset that was recently used in a popular data science activity called Tidy Tuesday. For those of you who are unfamiliar, Tidy Tuesday is movement from the R4DS online learning community to provide a supportive environment for people to practice their data science skills. Every Tuesday, the organizers will put out a raw dataset and let people to explore! The Tidy Tuesday the addressed the squirrel census data was during the week of October 29th. Some prominent members of the R community will post videos of them actually analyzing a dataset, which is extremely valuable because you can see how experts go about solving the problem. One such person is David Robinson. In fact, he put out a video on analyzing the squirrel census data! Here comes the assignment:
+
+## Assignment
+
+First, I want you to watch the David Robinson screen-cast. The clickable link can be found [here](https://www.youtube.com/watch?v=6GV9sAD6Pi0). It is an hour long so be prepared for a long video, but it is well worth it! Second, I want you to use the lessons/skills you learned in the video to make a plot of the squirrel data that does the following:
+
+* Plots the data spatially (position of the squirrel in Central Park)
+* Incorporates one or more variables (not latitude or longitude) using different aesthetics. It can not be the same as David Robinson
+* Has a map or map-ish element as a layer of the graphic. You can follow the same strategy as David Robinson or I can instruct you on how to use `ggmap`. 
+
+I have loaded the data in for you in the following code chunk. Don't touch! 
+
+```{r squirrel data, message=FALSE, warning=FALSE}
+squirrels <- read_csv("https://github.com/rfordatascience/tidytuesday/blob/master/data/2019/2019-10-29/nyc_squirrels.csv")
+```
+
+## Place Answer Below
+
+
+
