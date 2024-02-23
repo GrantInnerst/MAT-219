@@ -65,6 +65,7 @@ __Problem 1__: The code below doesn't create the side-by-side boxplot of batting
     filter(AB > 50) %>% 
     mutate(avg = H / AB)  # %>% 
     # ggplot(aes()) + geom_()
+
 ```
 
 __Problem 2__: Comment on the plot's findings.
@@ -81,7 +82,11 @@ batting %>%
     filter(yearID >= 1980 & yearID <= 2000) %>% 
     group_by(yearID) %>% 
     summarize(hr_total = sum(HR)) # %>% 
-     # ggplot(aes( , , label = hr_total)) + geom_() + geom_() + geom_label(size = 3, vjust = -.25) + labs(x = "Year", y = "Home Run Total")
+    ggplot(aes( , , label = hr_total)) +
+      geom_() + 
+      geom_() + 
+      geom_label(size = 3, vjust = -.25) +
+      labs(x = "Year", y = "Home Run Total")
     
 ```
 
