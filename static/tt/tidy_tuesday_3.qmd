@@ -1,0 +1,49 @@
+---
+title: "Tidy Tuesday #3"
+author: "PUT YOUR NAME HERE"
+format: pdf
+---
+
+## Assignment Description
+
+This is the third tidy tuesday assignment! This is another choose your own dataset assignment because the datasets haven't been very good for exploration this year so far. 
+
+As usual, I want you to do three separate tasks. One should be a plot (ggplot), one should involve creating a summary or summaries (dplyr), and one should involve working with text (stringr). Your analysis should include a discussion of what you are trying to do and what it tells you about the data. 
+
+To choose a dataset, do the following:
+
+-   Go to <https://github.com/rfordatascience/tidytuesday>
+-   Choose a dataset from the six years of available data. When you find a dataset that you want, make sure to click on the hyperlink in the data column of the table.
+-   Find "The Data" subsection of the page and copy the "Read directly from GitHub" code.
+-   Place that code in the chunk below labeled "load the dataset".
+
+
+
+```{r load packages}
+#| echo: false
+#| message: false
+
+library("tidyverse");theme_set(theme_bw())
+```
+
+```{r load the dataset}
+
+```
+
+```{r analysis 1}
+
+```
+
+Discussion:
+
+```{r analysis 2}
+
+```
+
+Discussion:
+
+```{r analysis 3}
+
+```
+
+Discussion:
