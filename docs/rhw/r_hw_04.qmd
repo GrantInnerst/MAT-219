@@ -1,5 +1,6 @@
 ---
-title: "Untitled"
+title: "R HW 4"
+author: "PUT YOUR NAME HERE"
 format: pdf
 ---
 
@@ -47,10 +48,6 @@ Next, you roll this second die six times. You take those six numbers and write t
 
 Eventually, you’ll have a die with the same number on all six faces. What is the average number of rolls it will take to reach this state?"
 
-```{r}
-
-```
-
 
 __Question Starts Here:__
 
@@ -61,6 +58,11 @@ I want you to create a simulation to try and answer this question! David Robinso
 * Keeping count of iterations: One way or another, you have to keep track of how many iteration you went through until you have all of the same faces. This may be easily built into your simulation or you may have to add a variable that keeps count. 
 
 To complete the task, you will want to prototype your function (make sure that it works for one run of roll sequence) and then use `map(1:10000, ~ code you ant to repeat)` to run the simulation many times (10000 or more). Then find the average of all the simulations to answer the question.
+
+```{r}
+
+```
+
   
 
 ## Question 4: Web Scraping
