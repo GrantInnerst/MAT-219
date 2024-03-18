@@ -1,0 +1,54 @@
+---
+title: "Tidy Tuesday #4"
+author: "PUT YOUR NAME HERE"
+format: html
+---
+
+## Assignment Description
+
+This is the fourth tidy tuesday assignment! This assignment is going to be focused on string manipulation. In this assignment, you are going to explore a dataset about X Men comic prices. 
+
+The dataset contains information about each X-Men team member, the number of issues they appeared in per decade from the 1960's to the 1990's, and the average price per issue of comics the member was involved in for each decade and for a number of different companies.
+
+
+Tasks:
+
+-   The member name is in camel case, but I would like you to change the names to title case (ex. jeanGrey should be Jean Grey). There are a variety of ways you can accomplish this and you can choose whichever way works for you. Make sure to assign the result to variable so the results are permanent. 
+-   Nearly all of the percentage and money columns contain symbols like percentage sign, dollar signs, and comma's, which look good in a table, but are read in as characters and not numeric values. I want you to pick one percentage column and one value column that are not "correct" and "fix" them by removing the offending symbols and converting the result to a numeric value. Make sure to assign the result to variable so the results are permanent. 
+-   Choose your own question about the data and answer it! The result could be a table, a plot, or something else. 
+
+
+
+
+```{r load packages}
+#| echo: false
+#| message: false
+
+library("tidyverse");theme_set(theme_bw())
+```
+
+```{r load the dataset}
+mutant <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-03-19/mutant_moneyball.csv')
+
+```
+
+Question 1:
+```{r analysis 1}
+
+```
+
+
+Question 2:
+```{r analysis 2}
+
+```
+
+Question 3:
+
+Question:
+
+```{r analysis 3}
+
+```
+
+Discussion:
