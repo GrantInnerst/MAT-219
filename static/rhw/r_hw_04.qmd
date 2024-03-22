@@ -57,7 +57,7 @@ I want you to create a simulation to try and answer this question! David Robinso
 * Determining when to stop: No matter what type of loop you use, you need some stopping criteria. The output of sample is a vector, and so you need to know when the vector becomes all one number. I suggest a combination of the `length()` and `unique()` functions. 
 * Keeping count of iterations: One way or another, you have to keep track of how many iteration you went through until you have all of the same faces. This may be easily built into your simulation or you may have to add a variable that keeps count. 
 
-To complete the task, you will want to prototype your function (make sure that it works for one run of roll sequence) and then use `map(1:10000, ~ code you ant to repeat)` to run the simulation many times (10000 or more). Then find the average of all the simulations to answer the question.
+To complete the task, you will want to prototype your function (make sure that it works for one run of roll sequence) and then use `map(1:10000, ~ code you want to repeat)` to run the simulation many times (10000 or more). Then find the average of all the simulations to answer the question.
 
 ```{r}
 
