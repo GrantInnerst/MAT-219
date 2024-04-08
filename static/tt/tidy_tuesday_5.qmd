@@ -1,0 +1,33 @@
+---
+title: "Tidy Tuesday #5"
+author: "PUT YOUR NAME HERE"
+format: pdf
+---
+
+## Assignment Description
+
+In this tidy tuesday assignment, you are going to explore some datasets around the solar eclipse that is happening on 4/8/2024! It's really up to you what you want to explore. I just want you to give an honest effort. 
+
+
+
+```{r load packages}
+#| echo: false
+#| message: false
+
+library("tidyverse");theme_set(theme_bw())
+```
+
+```{r load the data}
+eclipse_annular_2023 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-09/eclipse_annular_2023.csv')
+eclipse_total_2024 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-09/eclipse_total_2024.csv')
+eclipse_partial_2023 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-09/eclipse_partial_2023.csv')
+eclipse_partial_2024 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2024/2024-04-09/eclipse_partial_2024.csv')
+
+```
+
+```{r analysis 1}
+
+```
+
+
+Discussion:
