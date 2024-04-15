@@ -1,0 +1,30 @@
+---
+title: "Tidy Tuesday #6"
+author: "PUT YOUR NAME HERE"
+format: pdf
+---
+
+## Assignment Description
+
+This is your last tidy tuesday assignment
+
+
+
+```{r load packages}
+#| echo: false
+#| message: false
+
+library("tidyverse");theme_set(theme_bw())
+```
+
+```{r load the data}
+
+
+```
+
+```{r analysis 1}
+
+```
+
+
+Discussion:

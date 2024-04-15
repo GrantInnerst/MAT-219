@@ -30,6 +30,11 @@ The following steps are what you need to complete in order to create the proper 
 4. To finish the question off, plot a histogram of the standard deviations to see the bootstrap distribution.
 
 
+```{r}
+
+```
+
+
 ## Question 2: A Coverage Simulation
 
 In the last question, I asked you to make a 95% confidence interval. What does the 95% part of the confidence interval mean? This is one of the most challenging parts of a confidence interval for people in an intro stat class. Remember that the goal of a confidence interval is to estimate the true value of a characteristic of the population, called a parameter. The interpretation that makes the most sense for us is the following: "If I were to take many samples of the same size from the population, and compute a confidence interval for each sample using the same method, then 95% of the intervals should contain the true value of the parameter". This is called the coverage interpretation of a confidence interval. Coverage for a confidence interval is defined as the proportion of times the intervals contained the truth. Did you ever wonder if the interval actually lives up to the theory? In other words, does the method we use actually create intervals that contain the truth 95% of the time? In theory, yes they do! In practice, sometimes not so much...
